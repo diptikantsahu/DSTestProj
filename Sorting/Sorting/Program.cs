@@ -14,6 +14,8 @@ namespace Sorting
 
         //Insertion Sort 
 
+        //Merge Sort
+
         //Buble Sort 
     }
 }
