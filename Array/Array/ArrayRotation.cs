@@ -8,6 +8,13 @@ namespace Array
 {
     class ArrayRotation
     {
+
+        /* https://www.geeksforgeeks.org/array-rotation/ 
+
+        Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
+
+        */
+
         public static void RotateArrayByOne(int [] arr)
         {
             for (int i = 0; i < arr.Length-1; i++)
