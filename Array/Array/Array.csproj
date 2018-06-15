@@ -46,6 +46,7 @@
     <Compile Include="ArrayReversal.cs" />
     <Compile Include="ArrayRotation.cs" />
     <Compile Include="BlockSwapRotate.cs" />
+    <Compile Include="CyclicRotate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

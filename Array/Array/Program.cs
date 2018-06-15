@@ -95,6 +95,16 @@ namespace Array
                     PrintArray(blockswaparr);
                     break;
 
+                case 4:
+                    //Cyclic rotate array
+                    int[] cyclicRotateArray = { 1, 2, 3, 4, 5, 6, 7 };
+                    Console.WriteLine("Original Array reversal");
+                    PrintArray(cyclicRotateArray);
+                    CyclicRotate.CyclicRotateArray(cyclicRotateArray, 7);
+                    Console.WriteLine("Result after cyclic rotate of an array: ");
+                    PrintArray(cyclicRotateArray);
+                    break;
+
                 case 0:
                     break;
 
