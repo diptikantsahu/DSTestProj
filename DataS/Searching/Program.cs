@@ -10,6 +10,7 @@ namespace Searching
     {
         static void Main(string[] args)
         {
+            // spell 
             int[] arrayLinearSearch = { 1, 2, 4, 3, 5, 7, 6, 9, 8, 10 };
 
             int i = LinearSearch.DoLinearSearch(arrayLinearSearch, 11);
